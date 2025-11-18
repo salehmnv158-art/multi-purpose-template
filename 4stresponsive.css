@@ -1,0 +1,334 @@
+/*? Width: 992px to 1280px */  /* Done */
+
+/** 1200px -- 90% **/
+
+@media only screen and (max-width: 1280px) and (min-width: 992px){
+    .navbar{
+        width: 90%;
+    }
+    .navscr{
+        width: 55%;
+    }
+    .navscr-top{
+        font-size: 24px;
+    }
+    .navscr-body h1{
+        font-size: 43px;
+    }
+    .services-photos{
+        width: 86%;
+    }
+    .service-photo-1,
+    .service-photo-2,
+    .service-photo-3{
+        width: 31%;
+        height: auto;
+    }
+    .services-script{
+        width: 86%;
+    }
+    .services-script-right{
+        font-size: 15px;
+    }
+    .services-link{
+        font-size: 11px;
+        padding: 13px 36px;
+    }
+    .examples-alt{
+        width: 86%;
+    }
+    .examples-photo-1,
+    .examples-photo-2,
+    .examples-photo-3,
+    .examples-photo-4,
+    .examples-photo-5,
+    .examples-photo-6{
+        width: 31%;
+        height: auto;
+    }
+}
+
+/*? Width: 768px to 992px */ /* Done */
+
+@media only screen and (max-width: 992px) and (min-width: 768px){
+    .button-up{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+    .alt-bar{
+        margin: 60px 0px 0px 0px;
+    }
+    .altbar-activate-button{
+        display: block;
+    }
+    .navbar{
+        width: 90%;
+    }
+    .right{
+        display: none;
+    }
+    .navscr{
+        width: 60%;
+    }
+    .navscr-top{
+        font-size: 20px;
+    }
+    .navscr-body h1{
+        font-size: 38px;
+    }
+    .navscr-link-services{
+        font-size: 12px;
+        padding: 12px 40px;
+    }
+    .navscr-link-about{
+        font-size: 12px;
+        padding: 14px 42px;
+    }
+    .services-photos{
+        width: 94%;
+    }
+    .service-photo-1,
+    .service-photo-2,
+    .service-photo-3{
+        width: 31%;
+        height: auto;
+    }
+    .services-script{
+        width: 90%;
+    }
+    .services-script-left{
+        font-size: 23px;
+    }
+    .services-script-right{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .second-script{
+        margin: 20px 0px 40px 0px;
+    }
+    .services-link{
+        font-size: 10px;
+        padding: 12px 34px;
+    }
+    .call-top{
+        font-size: 23px;
+    }
+    .call-body{
+        width: 60%;
+        font-size: 15px;
+    }
+    .call-link{
+        padding: 12px 36px;
+        font-size: 11px;
+    }
+    .examples-alt{
+        width: 86%;
+    }
+    .examples-photo-1,
+    .examples-photo-2,
+    .examples-photo-3,
+    .examples-photo-4,
+    .examples-photo-5,
+    .examples-photo-6{
+        width: 31%;
+        height: auto;
+    }
+    #foot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .left-links{
+        width: 100%;
+        margin: 20px 0px 20px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-links a div{
+        padding: 10px 10px;
+        text-transform: capitalize;
+    }
+    .center-logo{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .right-copyright{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        margin: 20px 0px 20px 0px;
+    }
+}
+
+/*? Width: to 768px */ /* Done */
+
+@media only screen and (max-width: 768px){
+        
+    #head{
+        width: 100%;
+        height: 580px;
+    }
+    .button-up{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+    .alt-bar{
+        margin: 60px 0px 0px 0px;
+    }
+    .altbar-activate-button{
+        display: block;
+    }
+    .navbar{
+        width: 90%;
+    }
+    .right{
+        display: none;
+    }
+    .navscr{
+        width: 90%;
+    }
+    .navscr-top{
+        font-size: 18px;
+    }
+    .navscr-body h1{
+        font-size: 30px;
+    }
+    .navscr-links{
+        gap: 30px;
+    }
+    .navscr-link-services{
+        font-size: 11px;
+        padding: 12px 38px;
+    }
+    .navscr-link-about{
+        font-size: 11px;
+        padding: 14px 40px;
+    }
+    .services-photos{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-photo-1,
+    .service-photo-2,
+    .service-photo-3{
+        width: 90%;
+        height: auto;
+    }
+    .services-script{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .services-script-left{
+        font-size: 24px;
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+    }
+    .services-script-right{
+        font-size: 14px;
+        width: 100%;
+    }
+    .services-link{
+        font-size: 11px;
+        padding: 12px 38px;
+    }
+    .call-top{
+        font-size: 23px;
+    }
+    .call-body{
+        width: 80%;
+        font-size: 15px;
+    }
+    .call-link{
+        padding: 12px 36px;
+        font-size: 11px;
+    }
+    .examples-alt{
+        width: 94%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .examples-photos-top,
+    .examples-photos-bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .examples-photo-1,
+    .examples-photo-2,
+    .examples-photo-3,
+    .examples-photo-4,
+    .examples-photo-5,
+    .examples-photo-6{
+        width: 100%;
+        height: auto;
+    }
+    #foot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .left-links{
+        width: 100%;
+        margin: 20px 0px 20px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-links a div{
+        font-weight: 600;
+        font-size: 15px;
+        padding: 10px 10px;
+        text-transform: capitalize;
+    }
+    .center-logo{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 17px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .right-copyright{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        margin: 20px 0px 20px 0px;
+    }
+}
+
+.display-none{
+    display: none;
+}
